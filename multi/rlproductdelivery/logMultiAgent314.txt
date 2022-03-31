@@ -1,0 +1,402 @@
+State:{'position': array([[0, 0], [2, 3]]), 'shop_inventory': array([2, 3]), 'truck_inventory': array([3, 3])}
+Action:['go_down', 'go_up']
+Reward:[-0.1, -0.1]
+
+State:{'position': array([[1, 0], [1, 3]]), 'shop_inventory': array([2, 3]), 'truck_inventory': array([3, 3])}
+Action:['go_right', 'go_right']
+Reward:[-0.1, -0.1]
+
+State:{'position': array([[1, 1], [1, 4]]), 'shop_inventory': array([2, 1]), 'truck_inventory': array([3, 3])}
+Action:['go_left', 'load_2']
+Reward:[-0.1, -100]
+
+State:{'position': array([[1, 0], [1, 4]]), 'shop_inventory': array([2, 0]), 'truck_inventory': array([3, 3])}
+Action:['go_up', 'go_left']
+Reward:[-0.1, -5.1]
+
+State:{'position': array([[0, 0], [1, 3]]), 'shop_inventory': array([2, 0]), 'truck_inventory': array([3, 3])}
+Action:['go_down', 'go_right']
+Reward:[-0.1, -5.1]
+
+State:{'position': array([[1, 0], [1, 4]]), 'shop_inventory': array([2, 0]), 'truck_inventory': array([3, 3])}
+Action:['go_up', 'go_left']
+Reward:[-5.1, -0.1]
+
+State:{'position': array([[0, 0], [1, 3]]), 'shop_inventory': array([2, 0]), 'truck_inventory': array([3, 3])}
+Action:['go_down', 'go_right']
+Reward:[-0.1, -0.1]
+
+State:{'position': array([[1, 0], [1, 4]]), 'shop_inventory': array([2, 0]), 'truck_inventory': array([3, 3])}
+Action:['go_up', 'go_left']
+Reward:[-0.1, -0.1]
+
+State:{'position': array([[0, 0], [1, 3]]), 'shop_inventory': array([1, 0]), 'truck_inventory': array([3, 3])}
+Action:['go_down', 'go_right']
+Reward:[-0.1, -5.1]
+
+State:{'position': array([[1, 0], [1, 4]]), 'shop_inventory': array([1, 0]), 'truck_inventory': array([3, 3])}
+Action:['load_1', 'wait']
+Reward:[-100, -5]
+
+State:{'position': array([[1, 0], [1, 4]]), 'shop_inventory': array([1, 0]), 'truck_inventory': array([3, 3])}
+Action:['load_1', 'wait']
+Reward:[-100, 0]
+
+State:{'position': array([[1, 0], [1, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 3])}
+Action:['unload_2', 'unload_3']
+Reward:[-100, 45]
+
+State:{'position': array([[1, 0], [1, 4]]), 'shop_inventory': array([3, 0]), 'truck_inventory': array([3, 0])}
+Action:['load_2', 'go_down']
+Reward:[-100, -0.1]
+
+State:{'position': array([[1, 0], [2, 4]]), 'shop_inventory': array([3, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_right', 'load_2']
+Reward:[-0.1, -100]
+
+State:{'position': array([[1, 1], [2, 4]]), 'shop_inventory': array([2, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_down', 'go_right']
+Reward:[-0.1, -100]
+
+State:{'position': array([[2, 1], [2, 4]]), 'shop_inventory': array([1, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_right', 'go_right']
+Reward:[-0.1, -100]
+
+State:{'position': array([[2, 2], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_left', 'load_1']
+Reward:[-0.1, -100]
+
+State:{'position': array([[2, 1], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_up', 'unload_1']
+Reward:[-10.1, -100]
+
+State:{'position': array([[1, 1], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_right', 'load_3']
+Reward:[-10.1, -100]
+
+State:{'position': array([[1, 2], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_down', 'load_2']
+Reward:[-5.1, -100]
+
+State:{'position': array([[2, 2], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_left', 'load_1']
+Reward:[-0.1, -100]
+
+State:{'position': array([[2, 1], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_up', 'unload_1']
+Reward:[-0.1, -100]
+
+State:{'position': array([[1, 1], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_right', 'load_3']
+Reward:[-5.1, -100]
+
+State:{'position': array([[1, 2], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_down', 'load_2']
+Reward:[-0.1, -100]
+
+State:{'position': array([[2, 2], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_left', 'load_1']
+Reward:[-5.1, -100]
+
+State:{'position': array([[2, 1], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_up', 'unload_1']
+Reward:[-0.1, -100]
+
+State:{'position': array([[1, 1], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_right', 'load_3']
+Reward:[-0.1, -100]
+
+State:{'position': array([[1, 2], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_down', 'load_2']
+Reward:[-10.1, -100]
+
+State:{'position': array([[2, 2], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_left', 'load_1']
+Reward:[-0.1, -100]
+
+State:{'position': array([[2, 1], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_up', 'unload_1']
+Reward:[-0.1, -100]
+
+State:{'position': array([[1, 1], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_right', 'load_3']
+Reward:[-10.1, -100]
+
+State:{'position': array([[1, 2], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_down', 'load_2']
+Reward:[-5.1, -100]
+
+State:{'position': array([[2, 2], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_left', 'load_1']
+Reward:[-0.1, -100]
+
+State:{'position': array([[2, 1], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_up', 'unload_1']
+Reward:[-5.1, -100]
+
+State:{'position': array([[1, 1], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_right', 'load_3']
+Reward:[-0.1, -100]
+
+State:{'position': array([[1, 2], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_down', 'load_2']
+Reward:[-5.1, -100]
+
+State:{'position': array([[2, 2], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_left', 'load_1']
+Reward:[-0.1, -100]
+
+State:{'position': array([[2, 1], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_up', 'unload_1']
+Reward:[-5.1, -100]
+
+State:{'position': array([[1, 1], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_right', 'load_3']
+Reward:[-0.1, -100]
+
+State:{'position': array([[1, 2], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_down', 'load_2']
+Reward:[-0.1, -100]
+
+State:{'position': array([[2, 2], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_left', 'load_1']
+Reward:[-5.1, -100]
+
+State:{'position': array([[2, 1], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_up', 'unload_1']
+Reward:[-5.1, -100]
+
+State:{'position': array([[1, 1], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_right', 'load_3']
+Reward:[-0.1, -100]
+
+State:{'position': array([[1, 2], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_down', 'load_2']
+Reward:[-5.1, -100]
+
+State:{'position': array([[2, 2], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_left', 'load_1']
+Reward:[-5.1, -100]
+
+State:{'position': array([[2, 1], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_up', 'unload_1']
+Reward:[-0.1, -100]
+
+State:{'position': array([[1, 1], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_right', 'load_3']
+Reward:[-5.1, -100]
+
+State:{'position': array([[1, 2], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_down', 'load_2']
+Reward:[-0.1, -100]
+
+State:{'position': array([[2, 2], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_left', 'load_1']
+Reward:[-0.1, -100]
+
+State:{'position': array([[2, 1], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_up', 'unload_1']
+Reward:[-0.1, -100]
+
+State:{'position': array([[1, 1], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_right', 'load_3']
+Reward:[-0.1, -100]
+
+State:{'position': array([[1, 2], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_down', 'load_2']
+Reward:[-5.1, -100]
+
+State:{'position': array([[2, 2], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_left', 'load_1']
+Reward:[-0.1, -100]
+
+State:{'position': array([[2, 1], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_up', 'unload_1']
+Reward:[-5.1, -100]
+
+State:{'position': array([[1, 1], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_right', 'load_3']
+Reward:[-0.1, -100]
+
+State:{'position': array([[1, 2], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_down', 'load_2']
+Reward:[-5.1, -100]
+
+State:{'position': array([[2, 2], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_left', 'load_1']
+Reward:[-0.1, -100]
+
+State:{'position': array([[2, 1], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_up', 'unload_1']
+Reward:[-0.1, -100]
+
+State:{'position': array([[1, 1], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_right', 'load_3']
+Reward:[-5.1, -100]
+
+State:{'position': array([[1, 2], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_down', 'load_2']
+Reward:[-0.1, -100]
+
+State:{'position': array([[2, 2], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_left', 'load_1']
+Reward:[-10.1, -100]
+
+State:{'position': array([[2, 1], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_up', 'unload_1']
+Reward:[-0.1, -100]
+
+State:{'position': array([[1, 1], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_right', 'load_3']
+Reward:[-5.1, -100]
+
+State:{'position': array([[1, 2], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_down', 'load_2']
+Reward:[-0.1, -100]
+
+State:{'position': array([[2, 2], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_left', 'load_1']
+Reward:[-5.1, -100]
+
+State:{'position': array([[2, 1], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_up', 'unload_1']
+Reward:[-0.1, -100]
+
+State:{'position': array([[1, 1], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_right', 'load_3']
+Reward:[-5.1, -100]
+
+State:{'position': array([[1, 2], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_down', 'load_2']
+Reward:[-5.1, -100]
+
+State:{'position': array([[2, 2], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_left', 'load_1']
+Reward:[-5.1, -100]
+
+State:{'position': array([[2, 1], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_up', 'unload_1']
+Reward:[-0.1, -100]
+
+State:{'position': array([[1, 1], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_right', 'load_3']
+Reward:[-10.1, -100]
+
+State:{'position': array([[1, 2], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_down', 'load_2']
+Reward:[-0.1, -100]
+
+State:{'position': array([[2, 2], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_left', 'load_1']
+Reward:[-0.1, -100]
+
+State:{'position': array([[2, 1], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_up', 'unload_1']
+Reward:[-0.1, -100]
+
+State:{'position': array([[1, 1], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_right', 'load_3']
+Reward:[-0.1, -100]
+
+State:{'position': array([[1, 2], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_down', 'load_2']
+Reward:[-10.1, -100]
+
+State:{'position': array([[2, 2], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_left', 'load_1']
+Reward:[-0.1, -100]
+
+State:{'position': array([[2, 1], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_up', 'unload_1']
+Reward:[-5.1, -100]
+
+State:{'position': array([[1, 1], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_right', 'load_3']
+Reward:[-0.1, -100]
+
+State:{'position': array([[1, 2], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_down', 'load_2']
+Reward:[-5.1, -100]
+
+State:{'position': array([[2, 2], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_left', 'load_1']
+Reward:[-0.1, -100]
+
+State:{'position': array([[2, 1], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_up', 'unload_1']
+Reward:[-0.1, -100]
+
+State:{'position': array([[1, 1], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_right', 'load_3']
+Reward:[-0.1, -100]
+
+State:{'position': array([[1, 2], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_down', 'load_2']
+Reward:[-5.1, -100]
+
+State:{'position': array([[2, 2], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_left', 'load_1']
+Reward:[-10.1, -100]
+
+State:{'position': array([[2, 1], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_up', 'unload_1']
+Reward:[-5.1, -100]
+
+State:{'position': array([[1, 1], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_right', 'load_3']
+Reward:[-10.1, -100]
+
+State:{'position': array([[1, 2], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_down', 'load_2']
+Reward:[-5.1, -100]
+
+State:{'position': array([[2, 2], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_left', 'load_1']
+Reward:[-0.1, -100]
+
+State:{'position': array([[2, 1], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_up', 'unload_1']
+Reward:[-0.1, -100]
+
+State:{'position': array([[1, 1], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_right', 'load_3']
+Reward:[-0.1, -100]
+
+State:{'position': array([[1, 2], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_down', 'load_2']
+Reward:[-5.1, -100]
+
+State:{'position': array([[2, 2], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_left', 'load_1']
+Reward:[-5.1, -100]
+
+State:{'position': array([[2, 1], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_up', 'unload_1']
+Reward:[-0.1, -100]
+
+State:{'position': array([[1, 1], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_right', 'load_3']
+Reward:[-10.1, -100]
+
+State:{'position': array([[1, 2], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_down', 'load_2']
+Reward:[-0.1, -100]
+
+State:{'position': array([[2, 2], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_left', 'load_1']
+Reward:[-5.1, -100]
+
+State:{'position': array([[2, 1], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_up', 'unload_1']
+Reward:[-0.1, -100]
+
+State:{'position': array([[1, 1], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_right', 'load_3']
+Reward:[-5.1, -100]
+
+State:{'position': array([[1, 2], [2, 4]]), 'shop_inventory': array([0, 0]), 'truck_inventory': array([3, 0])}
+Action:['go_down', 'load_2']
+Reward:[-0.1, -100]
+
+300000 -9440.500000000016
+Training Finished..
